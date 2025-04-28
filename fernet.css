@@ -89,7 +89,13 @@
         align-items: center;
     }
 
-    .producto-imagenes, .producto-info {
+    .producto-imagenes {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .producto-info{
         width: 100%;
     }
+    
 }
